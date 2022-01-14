@@ -5,25 +5,33 @@ using UnityEngine.SceneManagement;
 
 public class KillPlayer : MonoBehaviour
 {
+    [SerializeField] Transform spawnPoint;
+    public int health;
 
-    public int Respawn;
-    // Start is called before the first frame update
     void Start()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+        health = PlayerPrefs.GetInt("PlayerCurrentLives");
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
+
+        if (other.gameObject.CompareTag("Player"))
         {
-            SceneManager.LoadScene(Respawn);
+            other.transform.position = spawnPoint.position;
+            SoundManagerScript.PlaySound("playerSplat");
+            LifeLost();
+            Debug.Log("Death Occured");
         }
+        
     }
+
+    private void LifeLost()
+    {
+        health -= 1;
+        PlayerPrefs.SetInt("PlayerCurrentLives", health);
+    }
+
+
+
 }

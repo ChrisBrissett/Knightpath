@@ -83,34 +83,42 @@ extern void Error_NoElements_mB89E91246572F009281D79730950808F17C3F353 (void);
 // 0x00000042 TElement[] System.Linq.Buffer`1::ToArray()
 // 0x00000043 System.Void System.Collections.Generic.HashSet`1::.ctor()
 // 0x00000044 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEqualityComparer`1<T>)
-// 0x00000045 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000046 System.Void System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.Add(T)
-// 0x00000047 System.Void System.Collections.Generic.HashSet`1::Clear()
-// 0x00000048 System.Boolean System.Collections.Generic.HashSet`1::Contains(T)
-// 0x00000049 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32)
-// 0x0000004A System.Boolean System.Collections.Generic.HashSet`1::Remove(T)
-// 0x0000004B System.Int32 System.Collections.Generic.HashSet`1::get_Count()
-// 0x0000004C System.Boolean System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
-// 0x0000004D System.Collections.Generic.HashSet`1/Enumerator<T> System.Collections.Generic.HashSet`1::GetEnumerator()
-// 0x0000004E System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
-// 0x0000004F System.Collections.IEnumerator System.Collections.Generic.HashSet`1::System.Collections.IEnumerable.GetEnumerator()
-// 0x00000050 System.Void System.Collections.Generic.HashSet`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
-// 0x00000051 System.Void System.Collections.Generic.HashSet`1::OnDeserialization(System.Object)
-// 0x00000052 System.Boolean System.Collections.Generic.HashSet`1::Add(T)
-// 0x00000053 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[])
-// 0x00000054 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32,System.Int32)
-// 0x00000055 System.Void System.Collections.Generic.HashSet`1::Initialize(System.Int32)
-// 0x00000056 System.Void System.Collections.Generic.HashSet`1::IncreaseCapacity()
-// 0x00000057 System.Void System.Collections.Generic.HashSet`1::SetCapacity(System.Int32)
-// 0x00000058 System.Boolean System.Collections.Generic.HashSet`1::AddIfNotPresent(T)
-// 0x00000059 System.Int32 System.Collections.Generic.HashSet`1::InternalGetHashCode(T)
-// 0x0000005A System.Void System.Collections.Generic.HashSet`1/Enumerator::.ctor(System.Collections.Generic.HashSet`1<T>)
-// 0x0000005B System.Void System.Collections.Generic.HashSet`1/Enumerator::Dispose()
-// 0x0000005C System.Boolean System.Collections.Generic.HashSet`1/Enumerator::MoveNext()
-// 0x0000005D T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
-// 0x0000005E System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
-// 0x0000005F System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
-static Il2CppMethodPointer s_methodPointers[95] = 
+// 0x00000045 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>)
+// 0x00000046 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Collections.Generic.IEnumerable`1<T>,System.Collections.Generic.IEqualityComparer`1<T>)
+// 0x00000047 System.Void System.Collections.Generic.HashSet`1::.ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000048 System.Void System.Collections.Generic.HashSet`1::CopyFrom(System.Collections.Generic.HashSet`1<T>)
+// 0x00000049 System.Void System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.Add(T)
+// 0x0000004A System.Void System.Collections.Generic.HashSet`1::Clear()
+// 0x0000004B System.Boolean System.Collections.Generic.HashSet`1::Contains(T)
+// 0x0000004C System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32)
+// 0x0000004D System.Boolean System.Collections.Generic.HashSet`1::Remove(T)
+// 0x0000004E System.Int32 System.Collections.Generic.HashSet`1::get_Count()
+// 0x0000004F System.Boolean System.Collections.Generic.HashSet`1::System.Collections.Generic.ICollection<T>.get_IsReadOnly()
+// 0x00000050 System.Collections.Generic.HashSet`1/Enumerator<T> System.Collections.Generic.HashSet`1::GetEnumerator()
+// 0x00000051 System.Collections.Generic.IEnumerator`1<T> System.Collections.Generic.HashSet`1::System.Collections.Generic.IEnumerable<T>.GetEnumerator()
+// 0x00000052 System.Collections.IEnumerator System.Collections.Generic.HashSet`1::System.Collections.IEnumerable.GetEnumerator()
+// 0x00000053 System.Void System.Collections.Generic.HashSet`1::GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+// 0x00000054 System.Void System.Collections.Generic.HashSet`1::OnDeserialization(System.Object)
+// 0x00000055 System.Boolean System.Collections.Generic.HashSet`1::Add(T)
+// 0x00000056 System.Void System.Collections.Generic.HashSet`1::UnionWith(System.Collections.Generic.IEnumerable`1<T>)
+// 0x00000057 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[])
+// 0x00000058 System.Void System.Collections.Generic.HashSet`1::CopyTo(T[],System.Int32,System.Int32)
+// 0x00000059 System.Collections.Generic.IEqualityComparer`1<T> System.Collections.Generic.HashSet`1::get_Comparer()
+// 0x0000005A System.Void System.Collections.Generic.HashSet`1::TrimExcess()
+// 0x0000005B System.Void System.Collections.Generic.HashSet`1::Initialize(System.Int32)
+// 0x0000005C System.Void System.Collections.Generic.HashSet`1::IncreaseCapacity()
+// 0x0000005D System.Void System.Collections.Generic.HashSet`1::SetCapacity(System.Int32)
+// 0x0000005E System.Boolean System.Collections.Generic.HashSet`1::AddIfNotPresent(T)
+// 0x0000005F System.Void System.Collections.Generic.HashSet`1::AddValue(System.Int32,System.Int32,T)
+// 0x00000060 System.Boolean System.Collections.Generic.HashSet`1::AreEqualityComparersEqual(System.Collections.Generic.HashSet`1<T>,System.Collections.Generic.HashSet`1<T>)
+// 0x00000061 System.Int32 System.Collections.Generic.HashSet`1::InternalGetHashCode(T)
+// 0x00000062 System.Void System.Collections.Generic.HashSet`1/Enumerator::.ctor(System.Collections.Generic.HashSet`1<T>)
+// 0x00000063 System.Void System.Collections.Generic.HashSet`1/Enumerator::Dispose()
+// 0x00000064 System.Boolean System.Collections.Generic.HashSet`1/Enumerator::MoveNext()
+// 0x00000065 T System.Collections.Generic.HashSet`1/Enumerator::get_Current()
+// 0x00000066 System.Object System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.get_Current()
+// 0x00000067 System.Void System.Collections.Generic.HashSet`1/Enumerator::System.Collections.IEnumerator.Reset()
+static Il2CppMethodPointer s_methodPointers[103] = 
 {
 	Error_ArgumentNull_m0EDA0D46D72CA692518E3E2EB75B48044D8FD41E,
 	Error_MoreThanOneMatch_m4C4756AF34A76EF12F3B2B6D8C78DE547F0FBCF8,
@@ -207,12 +215,28 @@ static Il2CppMethodPointer s_methodPointers[95] =
 	NULL,
 	NULL,
 	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
 };
-static const int32_t s_InvokerIndices[95] = 
+static const int32_t s_InvokerIndices[103] = 
 {
-	2954,
-	3068,
-	3068,
+	2980,
+	3094,
+	3094,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
+	-1,
 	-1,
 	-1,
 	-1,
@@ -319,8 +343,8 @@ static const Il2CppTokenRangePair s_rgctxIndices[28] =
 	{ 0x0200000D, { 95, 3 } },
 	{ 0x0200000E, { 98, 7 } },
 	{ 0x0200000F, { 105, 4 } },
-	{ 0x02000010, { 109, 21 } },
-	{ 0x02000012, { 130, 2 } },
+	{ 0x02000010, { 109, 34 } },
+	{ 0x02000012, { 143, 2 } },
 	{ 0x06000004, { 0, 10 } },
 	{ 0x06000005, { 10, 5 } },
 	{ 0x06000006, { 15, 2 } },
@@ -337,147 +361,160 @@ static const Il2CppTokenRangePair s_rgctxIndices[28] =
 	{ 0x06000011, { 42, 5 } },
 	{ 0x0600002F, { 81, 2 } },
 };
-static const Il2CppRGCTXDefinition s_rgctxValues[132] = 
+static const Il2CppRGCTXDefinition s_rgctxValues[145] = 
 {
-	{ (Il2CppRGCTXDataType)2, 1285 },
-	{ (Il2CppRGCTXDataType)3, 5124 },
-	{ (Il2CppRGCTXDataType)2, 2195 },
-	{ (Il2CppRGCTXDataType)2, 1865 },
-	{ (Il2CppRGCTXDataType)3, 9076 },
-	{ (Il2CppRGCTXDataType)2, 1361 },
-	{ (Il2CppRGCTXDataType)2, 1869 },
-	{ (Il2CppRGCTXDataType)3, 9089 },
-	{ (Il2CppRGCTXDataType)2, 1867 },
-	{ (Il2CppRGCTXDataType)3, 9082 },
-	{ (Il2CppRGCTXDataType)2, 488 },
+	{ (Il2CppRGCTXDataType)2, 1298 },
+	{ (Il2CppRGCTXDataType)3, 5166 },
+	{ (Il2CppRGCTXDataType)2, 2213 },
+	{ (Il2CppRGCTXDataType)2, 1881 },
+	{ (Il2CppRGCTXDataType)3, 9124 },
+	{ (Il2CppRGCTXDataType)2, 1375 },
+	{ (Il2CppRGCTXDataType)2, 1885 },
+	{ (Il2CppRGCTXDataType)3, 9137 },
+	{ (Il2CppRGCTXDataType)2, 1883 },
+	{ (Il2CppRGCTXDataType)3, 9130 },
+	{ (Il2CppRGCTXDataType)2, 489 },
 	{ (Il2CppRGCTXDataType)3, 19 },
 	{ (Il2CppRGCTXDataType)3, 20 },
-	{ (Il2CppRGCTXDataType)2, 874 },
-	{ (Il2CppRGCTXDataType)3, 3736 },
-	{ (Il2CppRGCTXDataType)2, 1658 },
-	{ (Il2CppRGCTXDataType)3, 7983 },
-	{ (Il2CppRGCTXDataType)3, 4136 },
-	{ (Il2CppRGCTXDataType)2, 550 },
+	{ (Il2CppRGCTXDataType)2, 880 },
+	{ (Il2CppRGCTXDataType)3, 3743 },
+	{ (Il2CppRGCTXDataType)2, 1672 },
+	{ (Il2CppRGCTXDataType)3, 8027 },
+	{ (Il2CppRGCTXDataType)3, 4178 },
+	{ (Il2CppRGCTXDataType)2, 551 },
 	{ (Il2CppRGCTXDataType)3, 609 },
 	{ (Il2CppRGCTXDataType)3, 610 },
-	{ (Il2CppRGCTXDataType)2, 1362 },
-	{ (Il2CppRGCTXDataType)3, 5413 },
-	{ (Il2CppRGCTXDataType)2, 1224 },
-	{ (Il2CppRGCTXDataType)2, 953 },
-	{ (Il2CppRGCTXDataType)2, 1035 },
-	{ (Il2CppRGCTXDataType)2, 1087 },
-	{ (Il2CppRGCTXDataType)2, 1225 },
-	{ (Il2CppRGCTXDataType)2, 954 },
-	{ (Il2CppRGCTXDataType)2, 1036 },
-	{ (Il2CppRGCTXDataType)2, 1088 },
-	{ (Il2CppRGCTXDataType)2, 1037 },
-	{ (Il2CppRGCTXDataType)2, 1089 },
-	{ (Il2CppRGCTXDataType)3, 3737 },
-	{ (Il2CppRGCTXDataType)2, 1028 },
-	{ (Il2CppRGCTXDataType)2, 1029 },
-	{ (Il2CppRGCTXDataType)2, 1085 },
-	{ (Il2CppRGCTXDataType)3, 3735 },
-	{ (Il2CppRGCTXDataType)2, 952 },
-	{ (Il2CppRGCTXDataType)2, 1034 },
-	{ (Il2CppRGCTXDataType)2, 951 },
-	{ (Il2CppRGCTXDataType)3, 10970 },
-	{ (Il2CppRGCTXDataType)3, 3297 },
-	{ (Il2CppRGCTXDataType)2, 787 },
-	{ (Il2CppRGCTXDataType)2, 1031 },
-	{ (Il2CppRGCTXDataType)2, 1086 },
-	{ (Il2CppRGCTXDataType)2, 1137 },
-	{ (Il2CppRGCTXDataType)3, 5125 },
-	{ (Il2CppRGCTXDataType)3, 5127 },
-	{ (Il2CppRGCTXDataType)2, 365 },
-	{ (Il2CppRGCTXDataType)3, 5126 },
-	{ (Il2CppRGCTXDataType)3, 5135 },
-	{ (Il2CppRGCTXDataType)2, 1288 },
-	{ (Il2CppRGCTXDataType)2, 1868 },
-	{ (Il2CppRGCTXDataType)3, 9083 },
-	{ (Il2CppRGCTXDataType)3, 5136 },
-	{ (Il2CppRGCTXDataType)2, 1061 },
-	{ (Il2CppRGCTXDataType)2, 1107 },
+	{ (Il2CppRGCTXDataType)2, 1376 },
+	{ (Il2CppRGCTXDataType)3, 5457 },
+	{ (Il2CppRGCTXDataType)2, 1237 },
+	{ (Il2CppRGCTXDataType)2, 962 },
+	{ (Il2CppRGCTXDataType)2, 1046 },
+	{ (Il2CppRGCTXDataType)2, 1099 },
+	{ (Il2CppRGCTXDataType)2, 1238 },
+	{ (Il2CppRGCTXDataType)2, 963 },
+	{ (Il2CppRGCTXDataType)2, 1047 },
+	{ (Il2CppRGCTXDataType)2, 1100 },
+	{ (Il2CppRGCTXDataType)2, 1048 },
+	{ (Il2CppRGCTXDataType)2, 1101 },
+	{ (Il2CppRGCTXDataType)3, 3744 },
+	{ (Il2CppRGCTXDataType)2, 1039 },
+	{ (Il2CppRGCTXDataType)2, 1040 },
+	{ (Il2CppRGCTXDataType)2, 1097 },
 	{ (Il2CppRGCTXDataType)3, 3742 },
-	{ (Il2CppRGCTXDataType)3, 10965 },
-	{ (Il2CppRGCTXDataType)3, 5128 },
-	{ (Il2CppRGCTXDataType)2, 1287 },
-	{ (Il2CppRGCTXDataType)2, 1866 },
-	{ (Il2CppRGCTXDataType)3, 9077 },
-	{ (Il2CppRGCTXDataType)3, 3741 },
-	{ (Il2CppRGCTXDataType)3, 5129 },
-	{ (Il2CppRGCTXDataType)3, 10964 },
-	{ (Il2CppRGCTXDataType)3, 5142 },
-	{ (Il2CppRGCTXDataType)2, 1289 },
-	{ (Il2CppRGCTXDataType)2, 1870 },
-	{ (Il2CppRGCTXDataType)3, 9090 },
-	{ (Il2CppRGCTXDataType)3, 5456 },
+	{ (Il2CppRGCTXDataType)2, 961 },
+	{ (Il2CppRGCTXDataType)2, 1045 },
+	{ (Il2CppRGCTXDataType)2, 960 },
+	{ (Il2CppRGCTXDataType)3, 11028 },
+	{ (Il2CppRGCTXDataType)3, 3300 },
+	{ (Il2CppRGCTXDataType)2, 788 },
+	{ (Il2CppRGCTXDataType)2, 1042 },
+	{ (Il2CppRGCTXDataType)2, 1098 },
+	{ (Il2CppRGCTXDataType)2, 1150 },
+	{ (Il2CppRGCTXDataType)3, 5167 },
+	{ (Il2CppRGCTXDataType)3, 5169 },
+	{ (Il2CppRGCTXDataType)2, 366 },
+	{ (Il2CppRGCTXDataType)3, 5168 },
+	{ (Il2CppRGCTXDataType)3, 5177 },
+	{ (Il2CppRGCTXDataType)2, 1301 },
+	{ (Il2CppRGCTXDataType)2, 1884 },
+	{ (Il2CppRGCTXDataType)3, 9131 },
+	{ (Il2CppRGCTXDataType)3, 5178 },
+	{ (Il2CppRGCTXDataType)2, 1072 },
+	{ (Il2CppRGCTXDataType)2, 1119 },
+	{ (Il2CppRGCTXDataType)3, 3749 },
+	{ (Il2CppRGCTXDataType)3, 11023 },
+	{ (Il2CppRGCTXDataType)3, 5170 },
+	{ (Il2CppRGCTXDataType)2, 1300 },
+	{ (Il2CppRGCTXDataType)2, 1882 },
+	{ (Il2CppRGCTXDataType)3, 9125 },
+	{ (Il2CppRGCTXDataType)3, 3748 },
+	{ (Il2CppRGCTXDataType)3, 5171 },
+	{ (Il2CppRGCTXDataType)3, 11022 },
+	{ (Il2CppRGCTXDataType)3, 5184 },
+	{ (Il2CppRGCTXDataType)2, 1302 },
+	{ (Il2CppRGCTXDataType)2, 1886 },
+	{ (Il2CppRGCTXDataType)3, 9138 },
+	{ (Il2CppRGCTXDataType)3, 5500 },
 	{ (Il2CppRGCTXDataType)3, 2735 },
-	{ (Il2CppRGCTXDataType)3, 3743 },
+	{ (Il2CppRGCTXDataType)3, 3750 },
 	{ (Il2CppRGCTXDataType)3, 2734 },
-	{ (Il2CppRGCTXDataType)3, 5143 },
-	{ (Il2CppRGCTXDataType)3, 10966 },
-	{ (Il2CppRGCTXDataType)3, 3740 },
-	{ (Il2CppRGCTXDataType)2, 489 },
+	{ (Il2CppRGCTXDataType)3, 5185 },
+	{ (Il2CppRGCTXDataType)3, 11024 },
+	{ (Il2CppRGCTXDataType)3, 3747 },
+	{ (Il2CppRGCTXDataType)2, 490 },
 	{ (Il2CppRGCTXDataType)3, 23 },
-	{ (Il2CppRGCTXDataType)3, 7970 },
-	{ (Il2CppRGCTXDataType)2, 1659 },
-	{ (Il2CppRGCTXDataType)3, 7984 },
-	{ (Il2CppRGCTXDataType)2, 551 },
+	{ (Il2CppRGCTXDataType)3, 8014 },
+	{ (Il2CppRGCTXDataType)2, 1673 },
+	{ (Il2CppRGCTXDataType)3, 8028 },
+	{ (Il2CppRGCTXDataType)2, 552 },
 	{ (Il2CppRGCTXDataType)3, 611 },
-	{ (Il2CppRGCTXDataType)3, 7976 },
+	{ (Il2CppRGCTXDataType)3, 8020 },
 	{ (Il2CppRGCTXDataType)3, 2715 },
-	{ (Il2CppRGCTXDataType)2, 382 },
-	{ (Il2CppRGCTXDataType)3, 7971 },
-	{ (Il2CppRGCTXDataType)2, 1655 },
+	{ (Il2CppRGCTXDataType)2, 383 },
+	{ (Il2CppRGCTXDataType)3, 8015 },
+	{ (Il2CppRGCTXDataType)2, 1669 },
 	{ (Il2CppRGCTXDataType)3, 637 },
-	{ (Il2CppRGCTXDataType)2, 563 },
-	{ (Il2CppRGCTXDataType)2, 773 },
+	{ (Il2CppRGCTXDataType)2, 564 },
+	{ (Il2CppRGCTXDataType)2, 774 },
 	{ (Il2CppRGCTXDataType)3, 2721 },
-	{ (Il2CppRGCTXDataType)3, 7972 },
+	{ (Il2CppRGCTXDataType)3, 8016 },
 	{ (Il2CppRGCTXDataType)3, 2710 },
 	{ (Il2CppRGCTXDataType)3, 2711 },
 	{ (Il2CppRGCTXDataType)3, 2709 },
 	{ (Il2CppRGCTXDataType)3, 2712 },
-	{ (Il2CppRGCTXDataType)2, 769 },
-	{ (Il2CppRGCTXDataType)2, 2259 },
-	{ (Il2CppRGCTXDataType)3, 3739 },
+	{ (Il2CppRGCTXDataType)2, 770 },
+	{ (Il2CppRGCTXDataType)2, 2277 },
+	{ (Il2CppRGCTXDataType)3, 3746 },
 	{ (Il2CppRGCTXDataType)3, 2714 },
-	{ (Il2CppRGCTXDataType)2, 1016 },
+	{ (Il2CppRGCTXDataType)2, 1025 },
 	{ (Il2CppRGCTXDataType)3, 2713 },
-	{ (Il2CppRGCTXDataType)2, 955 },
-	{ (Il2CppRGCTXDataType)2, 2219 },
-	{ (Il2CppRGCTXDataType)2, 1040 },
-	{ (Il2CppRGCTXDataType)2, 1090 },
-	{ (Il2CppRGCTXDataType)3, 3313 },
-	{ (Il2CppRGCTXDataType)2, 795 },
-	{ (Il2CppRGCTXDataType)3, 4009 },
-	{ (Il2CppRGCTXDataType)3, 4010 },
-	{ (Il2CppRGCTXDataType)3, 4015 },
-	{ (Il2CppRGCTXDataType)2, 1145 },
-	{ (Il2CppRGCTXDataType)3, 4012 },
-	{ (Il2CppRGCTXDataType)3, 11327 },
-	{ (Il2CppRGCTXDataType)2, 774 },
-	{ (Il2CppRGCTXDataType)3, 2728 },
-	{ (Il2CppRGCTXDataType)1, 1013 },
-	{ (Il2CppRGCTXDataType)2, 2229 },
-	{ (Il2CppRGCTXDataType)3, 4011 },
-	{ (Il2CppRGCTXDataType)1, 2229 },
-	{ (Il2CppRGCTXDataType)1, 1145 },
-	{ (Il2CppRGCTXDataType)2, 2273 },
-	{ (Il2CppRGCTXDataType)2, 2229 },
+	{ (Il2CppRGCTXDataType)2, 964 },
+	{ (Il2CppRGCTXDataType)2, 2237 },
+	{ (Il2CppRGCTXDataType)2, 1051 },
+	{ (Il2CppRGCTXDataType)2, 1102 },
+	{ (Il2CppRGCTXDataType)3, 3316 },
+	{ (Il2CppRGCTXDataType)2, 796 },
 	{ (Il2CppRGCTXDataType)3, 4016 },
-	{ (Il2CppRGCTXDataType)3, 4014 },
-	{ (Il2CppRGCTXDataType)3, 4013 },
-	{ (Il2CppRGCTXDataType)2, 274 },
+	{ (Il2CppRGCTXDataType)3, 4017 },
+	{ (Il2CppRGCTXDataType)2, 939 },
+	{ (Il2CppRGCTXDataType)3, 4020 },
+	{ (Il2CppRGCTXDataType)2, 939 },
+	{ (Il2CppRGCTXDataType)3, 4021 },
+	{ (Il2CppRGCTXDataType)2, 965 },
+	{ (Il2CppRGCTXDataType)3, 4025 },
+	{ (Il2CppRGCTXDataType)3, 4029 },
+	{ (Il2CppRGCTXDataType)3, 4028 },
+	{ (Il2CppRGCTXDataType)2, 2291 },
+	{ (Il2CppRGCTXDataType)3, 4019 },
+	{ (Il2CppRGCTXDataType)3, 4018 },
+	{ (Il2CppRGCTXDataType)3, 4026 },
+	{ (Il2CppRGCTXDataType)2, 1158 },
+	{ (Il2CppRGCTXDataType)3, 4023 },
+	{ (Il2CppRGCTXDataType)3, 11388 },
+	{ (Il2CppRGCTXDataType)2, 775 },
+	{ (Il2CppRGCTXDataType)3, 2728 },
+	{ (Il2CppRGCTXDataType)1, 1022 },
+	{ (Il2CppRGCTXDataType)2, 2247 },
+	{ (Il2CppRGCTXDataType)3, 4022 },
+	{ (Il2CppRGCTXDataType)1, 2247 },
+	{ (Il2CppRGCTXDataType)1, 1158 },
+	{ (Il2CppRGCTXDataType)2, 2291 },
+	{ (Il2CppRGCTXDataType)2, 2247 },
+	{ (Il2CppRGCTXDataType)2, 1053 },
+	{ (Il2CppRGCTXDataType)2, 1104 },
+	{ (Il2CppRGCTXDataType)3, 4027 },
+	{ (Il2CppRGCTXDataType)3, 4024 },
+	{ (Il2CppRGCTXDataType)3, 4030 },
+	{ (Il2CppRGCTXDataType)2, 275 },
 	{ (Il2CppRGCTXDataType)3, 2736 },
-	{ (Il2CppRGCTXDataType)2, 371 },
+	{ (Il2CppRGCTXDataType)2, 372 },
 };
 extern const CustomAttributesCacheGenerator g_System_Core_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Core_CodeGenModule;
 const Il2CppCodeGenModule g_System_Core_CodeGenModule = 
 {
 	"System.Core.dll",
-	95,
+	103,
 	s_methodPointers,
 	0,
 	NULL,
@@ -486,7 +523,7 @@ const Il2CppCodeGenModule g_System_Core_CodeGenModule =
 	NULL,
 	28,
 	s_rgctxIndices,
-	132,
+	145,
 	s_rgctxValues,
 	NULL,
 	g_System_Core_AttributeGenerators,

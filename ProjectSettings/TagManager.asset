@@ -3,7 +3,14 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Coin
+  - MGround
+  - Sapphire
+  - Spike
+  - Life
+  - Death
+  - Ground
   layers:
   - Default
   - TransparentFX
@@ -14,8 +21,8 @@ TagManager:
   - Character
   - Ground
   - Background
-  - 
-  - 
+  - Coin
+  - Sapphire
   - 
   - 
   - 
@@ -41,9 +48,24 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
-  - name: Main
+  - name: Background
+    uniqueID: 847603493
+    locked: 0
+  - name: Door
     uniqueID: 1859317765
     locked: 0
-  - name: Background
+  - name: Spike
     uniqueID: 166986797
+    locked: 0
+  - name: Platform
+    uniqueID: 4060012555
+    locked: 0
+  - name: Character
+    uniqueID: 352874813
+    locked: 0
+  - name: GUI
+    uniqueID: 387390815
+    locked: 0
+  - name: Menus
+    uniqueID: 1769918837
     locked: 0

@@ -9,6 +9,39 @@ EditorBuildSettings:
     path: Assets/Scenes/_Menu.unity
     guid: 74605b89d7179f84bb4a9a0f2b3cc532
   - enabled: 1
+    path: Assets/Scenes/_MenuLevelSelect.unity
+    guid: 2fbde0209043d7b49bf53bd9e418eed3
+  - enabled: 1
+    path: Assets/Scenes/CoinShop.unity
+    guid: 1a4abe87dc6d62a479b40bef2a61b291
+  - enabled: 1
     path: Assets/Scenes/Level 1.unity
+    guid: b9586e2671f988d4bbb584d0acdfe383
+  - enabled: 1
+    path: Assets/Scenes/Level 2.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Level 3.unity
+    guid: 099b027c48496394bb834a8341b57abc
+  - enabled: 1
+    path: Assets/Scenes/Level 4.unity
+    guid: 857344cbd4e9c5346a3eb7800fb6052a
+  - enabled: 1
+    path: Assets/Scenes/Level 5.unity
+    guid: 87464ce3b3481964ea8b5f1708105ccc
+  - enabled: 1
+    path: Assets/Scenes/Level 6.unity
+    guid: 44ad565e93e36134cb435225f32e485d
+  - enabled: 1
+    path: Assets/Scenes/Level 7.unity
+    guid: c136cefb513bfe84dac1951794f04aa1
+  - enabled: 1
+    path: Assets/Scenes/Level 8.unity
+    guid: b9df3b9ac906cf6488512aca29641123
+  - enabled: 1
+    path: Assets/Scenes/Level 9.unity
+    guid: 1c3a151134df4cc4aa038cf544c61d59
+  - enabled: 1
+    path: Assets/Scenes/Level 10.unity
+    guid: 08a07296891548a459a596479229e786
   m_configObjects: {}
