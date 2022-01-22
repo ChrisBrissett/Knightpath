@@ -19,7 +19,9 @@ public class LevelClearedScript : MonoBehaviour
         {
             Time.timeScale = 0;
             levelCleared.gameObject.SetActive(true);
+            
         }
+        
     }
 
 

@@ -57,6 +57,9 @@ TagManager:
   - name: Spike
     uniqueID: 166986797
     locked: 0
+  - name: Door
+    uniqueID: 3504169561
+    locked: 0
   - name: Platform
     uniqueID: 4060012555
     locked: 0
@@ -68,4 +71,7 @@ TagManager:
     locked: 0
   - name: Menus
     uniqueID: 1769918837
+    locked: 0
+  - name: Menu Image
+    uniqueID: 1902965679
     locked: 0

@@ -6,19 +6,23 @@ using UnityEngine.SceneManagement;
 public class GameOverScript : MonoBehaviour
 {
 
-    
+    public GameObject goMenu;
+    public static int health;
+    public static int coins;
     
     // Start is called before the first frame update
     public void Restart()
     {
-        ScoreTextScript.coinAmount = 0;
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
 
     }
 
     public void Resume()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        Time.timeScale = 1;
+        GameControlScript.health += 1;
+        goMenu.gameObject.SetActive(false);
     }
 
     public void Home()
@@ -34,6 +38,8 @@ public class GameOverScript : MonoBehaviour
 
     public void NextLevel()
     {
+        health = GameControlScript.health;
+        coins = SecCoinScript.coins;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

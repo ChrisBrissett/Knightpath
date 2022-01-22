@@ -22,13 +22,9 @@ public class PlayerController : MonoBehaviour
     private int extraJumps;
     public int extraJumpsValue;
 
-   
-
-   
-
     private Animator anim;
 
-
+    
     void Start()
     {
         anim = GetComponent<Animator>();
@@ -134,5 +130,9 @@ public class PlayerController : MonoBehaviour
 
     }
 
- 
+   
+
+   
+
+   
 }

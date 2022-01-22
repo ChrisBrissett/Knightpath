@@ -5,27 +5,22 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    // Start is called before the first frame update
-    [SerializeField] private string newGameButton = "newGame";
-    [SerializeField] private string resumeButton = "_MenuLevelSelect";
-    public int playerLives;
-    public int currentCoins;
-    
-
+ 
+    public int health;
 
     public void newGame()
     {
-        PlayerPrefs.SetInt("PlayerCurrentCoins", currentCoins);
-        PlayerPrefs.SetInt("PlayerCurrentLives", playerLives);
-        SceneManager.LoadScene(newGameButton);
-      
+        GameControlScript.health += 3;
+        SecCoinScript.coins = 0;
+        PlayerData player = SaveManager.Delete();
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+
     }
     
     public void resumeGame()
     {
-        PlayerPrefs.GetInt("PlayerCurrentCoins", currentCoins);
-        PlayerPrefs.GetInt("PlayerCurrentLives", playerLives);
-        SceneManager.LoadScene(resumeButton);
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void quit()

@@ -70,4 +70,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e5c5c7d80f64dc74795dd01eed68b030, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 0}
+  spawnPoint: {fileID: 5453313658205294196, guid: 5eadbab79d0d8f44a938e46e77558a81, type: 3}
+  health: 0

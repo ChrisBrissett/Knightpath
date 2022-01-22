@@ -5,21 +5,25 @@ using UnityEngine.UI;
 
 public class GameControlScript : MonoBehaviour
 {
+    
+
     public GameObject head1, head2, head3, gameOver;
-    public int health;
+    public static int health;
+    public static int coins;
+
     
 
     void Start ()
     {
+        
         Time.timeScale = 1;
-        health = PlayerPrefs.GetInt("PlayerCurrentLives");
         gameOver.gameObject.SetActive(false);
 
     }
 
     void Update ()
     {
-        health = PlayerPrefs.GetInt("PlayerCurrentLives", health);
+       
 
         if (health > 3)
             health = 3;

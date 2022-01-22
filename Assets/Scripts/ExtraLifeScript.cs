@@ -8,10 +8,7 @@ public class ExtraLifeScript : MonoBehaviour
     [SerializeField] Transform spawnPoint;
     public int health;
 
-    void Start()
-    {
-        health = PlayerPrefs.GetInt("PlayerCurrentLives");
-    }
+    
 
    
 
@@ -20,18 +17,14 @@ public class ExtraLifeScript : MonoBehaviour
 
         if (other.gameObject.CompareTag("Player"))
         {
-           
-            ExtraLife();
+
+            GameControlScript.health += 1;
             Debug.Log("Extra Life");
         }
 
     }
 
-    private void ExtraLife()
-    {
-        health += 1;
-        PlayerPrefs.SetInt("PlayerCurrentLives", health);
-    }
+   
 
 
 

@@ -8,10 +8,8 @@ public class CoinScript : MonoBehaviour
 
     public int coins;
 
-    void Start()
-    {
-        coins = PlayerPrefs.GetInt("PlayerCurrentCoins");
-    }
+    
+    
     void OnTriggerEnter2D(Collider2D col)
     {
 
@@ -19,7 +17,8 @@ public class CoinScript : MonoBehaviour
 
             Debug.Log("Coin Collected!");
             SecCoinScript.coins += 1;
-        PlayerPrefs.SetInt("PlayerCurrentCoins", coins);
+        
+      
 
 
     }
